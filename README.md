@@ -11,6 +11,8 @@ This project is a Go application that integrates with Home Assistant to synchron
 ## Table of Contents
 
 - [Installation](#installation)
+  - [Manual Installation](#manual-installation)
+  - [Using Pre-built Release](#using-pre-built-release)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
@@ -18,6 +20,8 @@ This project is a Go application that integrates with Home Assistant to synchron
 - [License](#license)
 
 ## Installation
+
+### Manual Installation
 
 1. **Clone the repository:**
 
@@ -38,6 +42,24 @@ This project is a Go application that integrates with Home Assistant to synchron
 
    ```sh
    go build
+   ```
+
+### Using Pre-built Release
+
+1. **Download the latest release:**
+
+   Go to the [Releases](https://github.com/yourusername/volume-sync-homeassistant/releases) tab and download the appropriate version for your operating system.
+
+2. **Extract the downloaded archive:**
+
+   Extract the contents of the archive to your desired location.
+
+3. **Run the application:**
+
+   Navigate to the directory where you extracted the files and run:
+
+   ```sh
+   ./volume-sync-homeassistant
    ```
 
 ## Configuration
@@ -67,11 +89,12 @@ The following keyboard shortcuts are supported for media control:
 - **Media Mute**: Mute or unmute
 - **Media Volume Down/Up**: Decrease or increase volume
 
-
 The Following Keyboard shortcuts will be supported for media contro:
+
 - **Media Previous**: Go to the previous track
 - **Media Play/Pause**: Toggle play/pause
 - **Media Next**: Go to the next track
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
