@@ -1,8 +1,10 @@
 # Volume Sync with Home Assistant
 
 This project is a Go application that integrates with Home Assistant to synchronize media volume and control media playback through keyboard shortcuts.
+The Project is Mac only!
 
 <img src="https://github.com/ScriptType/HA_VolumeSync/blob/main/volumeSync.gif" alt="Demo Video" width="480" height="270">
+
 
 ## Features
 
