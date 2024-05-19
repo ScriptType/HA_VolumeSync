@@ -1,0 +1,5 @@
+{
+  "base_url": "homeassistant.stojan.ipv64.de",
+  "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiZWJiOGEyMTZhMGQ0YWUzOWRlOWI2YmU2YmY0YjhhMyIsImlhdCI6MTcxNTM0NDQxOCwiZXhwIjoyMDMwNzA0NDE4fQ.KJ-Nfg7OWTtjARBBISvipw_Q7YUChmABU3kptErWeT0",
+  "entity_id": "media_player.mania_deep_black"
+}
