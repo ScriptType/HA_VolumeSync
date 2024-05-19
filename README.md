@@ -2,6 +2,8 @@
 
 This project is a Go application that integrates with Home Assistant to synchronize media volume and control media playback through keyboard shortcuts.
 
+<img src="https://github.com/ScriptType/HA_VolumeSync/blob/main/volumeSync.gif" alt="Demo Video" width="480" height="270">
+
 ## Features
 
 - Synchronize media volume with Home Assistant
@@ -48,18 +50,14 @@ This project is a Go application that integrates with Home Assistant to synchron
 
 1. **Download the latest release:**
 
-   Go to the [Releases](https://github.com/yourusername/volume-sync-homeassistant/releases) tab and download the appropriate version for your operating system.
+[Releases](https://github.com/ScriptType/HA_VolumeSync/releases)
 
-2. **Extract the downloaded archive:**
+2. **Run the application:**
 
-   Extract the contents of the archive to your desired location.
-
-3. **Run the application:**
-
-   Navigate to the directory where you extracted the files and run:
+   Navigate to the directory where you downloaded the go-executable and run:
 
    ```sh
-   ./volume-sync-homeassistant
+   sudo ./HA_VolumeSync
    ```
 
 ## Configuration
@@ -89,7 +87,7 @@ The following keyboard shortcuts are supported for media control:
 - **Media Mute**: Mute or unmute
 - **Media Volume Down/Up**: Decrease or increase volume
 
-The Following Keyboard shortcuts will be supported for media contro:
+The Following Keyboard shortcuts will be supported for media control:
 
 - **Media Previous**: Go to the previous track
 - **Media Play/Pause**: Toggle play/pause
